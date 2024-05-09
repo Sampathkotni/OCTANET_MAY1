@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000000; /* Netflix black */
+    color: #fff;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #E50914; /* Netflix red */
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: none;
+    background-color: #777;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px;
+    margin-left: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .task {
+    display: flex;
+    align-items: center;
+    background-color: #555;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin: 0 auto; /* Align task box to center */
+  }
+  
+  .task span {
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .task button {
+    margin-left: 0,auto;
+  }
+  
+  
+  
